@@ -1,5 +1,18 @@
 # @devopness/ui-react
 
+## 2.213.1
+
+### Patch Changes
+
+- [#3784](https://github.com/devopness/devopness/pull/3784) [`b3315ef`](https://github.com/devopness/devopness/commit/b3315ef319c49186485e37c10730da57e5fe190a) Thanks [@therealrinku](https://github.com/therealrinku)! - Remove auto expand collapse on row click on `Table` component
+
+## 2.213.0
+
+### Minor Changes
+
+- [#3781](https://github.com/devopness/devopness/pull/3781) [`3201c29`](https://github.com/devopness/devopness/commit/3201c290b9801dd85b405b759638d7afa889e0a9) Thanks [@therealrinku](https://github.com/therealrinku)! - - Externalize `@tanstack/react-table` library to prevent runtime error of `require` function not being available in consumer app
+  - Pass props `disabled` and `readOnly` to native input in `Input` component to prevent readOnly fields being editable
+
 ## 2.212.1
 
 ### Patch Changes
